@@ -1,0 +1,9 @@
+name: APWar
+main: ap.uni.apwar
+version: 1.0
+author: [_MrUniverse]
+depend:  [Factions]
+commands:
+   war:
+      description: null
+      usage: /<command> <faction>
