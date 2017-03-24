@@ -42,7 +42,7 @@ public class Main extends JavaPlugin {
                     for(Player p : Bukkit.getOnlinePlayers()){
                     	p.playSound(p.getLocation(), Sound.ENTITY_WITHER_SPAWN, 1, 0);
                     	}
-                    
+                    this.getServer().broadcastMessage(faction + " Has gone to war with " + enemyFaction + " !");
                     }
                     
                        }
