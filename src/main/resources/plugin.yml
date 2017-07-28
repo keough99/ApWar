@@ -1,7 +1,7 @@
 name: APWar
-main: ap.uni.apwar
+main: apdevteam.apwar.APWar
 version: 1.0
-author: [_MrUniverse]
+authors: [_MrUniverse, cccm5]
 depend:  [Factions]
 commands:
    war:
