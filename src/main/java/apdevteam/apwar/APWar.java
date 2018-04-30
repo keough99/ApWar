@@ -27,6 +27,9 @@ public class APWar extends JavaPlugin {
             Faction enemyFaction = FactionColl.get().getByName(args[0]); //get the enemy faction
             MPlayer mplayer = MPlayer.get(sender);   //defines mplayer
             Faction faction = mplayer.getFaction();   //get's sender faction
+            if(enemyFaction.equals(null)){
+                sender.sendMessage("That's not a faction name.");
+            }
             if(mplayer.getRole().isAtLeast(Rel.OFFICER)){
                 sender.sendMessage("You need to be at least an officer to do that");
                 return true;
