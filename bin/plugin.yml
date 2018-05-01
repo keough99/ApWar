@@ -1,0 +1,9 @@
+name: APWar
+main: apdevteam.apwar.APWar
+version: 1.0
+authors: [_MrUniverse, cccm5]
+depend:  [Factions]
+commands:
+   war:
+      description: null
+      usage: /<command> <faction>
